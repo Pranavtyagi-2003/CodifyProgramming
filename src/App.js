@@ -13,7 +13,7 @@ function App() {
   return ( 
     <div className="App">
       {/* <VideoFrame/> */}
-      <Router>
+      <Router basename='codifyprogramming'>
          <Routes>
             <Route path='/' element = {<Home/>}></Route>
          </Routes>
