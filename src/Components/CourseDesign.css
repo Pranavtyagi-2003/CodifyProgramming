@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+}
+.heading1{
+    margin-top:25px;
+    font-size:30px;
+}
+.frames{
+    margin:auto;
+    background-color: aliceblue;
+    height: 80vh;
+}
+.cards1{
+    background-color: rgb(250, 250, 250);
+    width: 35%;
+    height: 64vh;
+    margin: 20px 16px;
+    border: 0px solid white;
+    border-radius: 56px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cards1:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: all .5s ease;
+}
+.align1{
+    display: flex;
+}
+.cards1 img{
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    width: 100%;
+    height: 35vh;
+}
+.cards1 p{
+    float:left;
+    margin:8px 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.p1{
+    float:left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn{
+    width:38%;
+    margin:8px 16px;
+    height: 7vh;
+    background-color: rgb(18, 18, 162);
+    float: left;
+}
+.cards1 Link{
+    text-decoration: none;
+}
+/* .grow1 { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow1:hover { 
+    transform: scale(0.9) 
+    } */
+
+@media only screen and (max-width: 700px) {
+    .align1{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+
+    }
+    .cards1{
+        width:90%;
+        height: 50vh;
+        margin-top:30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .cards1 p1{
+        margin:8px 20px;
+    }
+    .btn{
+        width:60%;
+    }
+    .cards1 img{
+        height: 25vh;
+    }
+}
