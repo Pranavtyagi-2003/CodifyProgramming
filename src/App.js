@@ -11,9 +11,9 @@ import VideoFrame from './Components/VideoFrame';
  
 function App() {
   return ( 
-    <div className="App">
+    <div className="App">   
       {/* <VideoFrame/> */}
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="my-website">
          <Routes>
             <Route path='/' element = {<Home/>}></Route>
          </Routes>

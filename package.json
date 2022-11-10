@@ -2,7 +2,7 @@
   "name": "my-website",
   "homepage": "https://Pranavtyagi-2003.github.io/CodifyProgramming ",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@emotion/react": "^11.9.3",
