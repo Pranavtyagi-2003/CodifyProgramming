@@ -13,7 +13,7 @@ function App() {
   return ( 
     <div className="App">
       {/* <VideoFrame/> */}
-      <Router basename="my-website">
+      <Router basename={process.env.PUBLIC_URL}>
          <Routes>
             <Route path='/' element = {<Home/>}></Route>
          </Routes>
