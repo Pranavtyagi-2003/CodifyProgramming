@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pranavtyagi-2003/CodifyProgramming/static/css/main.da0b04c0.css",
-    "main.js": "/Pranavtyagi-2003/CodifyProgramming/static/js/main.6fbcdc97.js",
+    "main.js": "/Pranavtyagi-2003/CodifyProgramming/static/js/main.d7bbb204.js",
     "static/js/787.bbe01249.chunk.js": "/Pranavtyagi-2003/CodifyProgramming/static/js/787.bbe01249.chunk.js",
     "static/media/intro3.png": "/Pranavtyagi-2003/CodifyProgramming/static/media/intro3.8d3095dfb28ec5af0d48.png",
     "static/media/2.png": "/Pranavtyagi-2003/CodifyProgramming/static/media/2.80f4586d304841b3306b.png",
@@ -25,11 +25,11 @@
     "static/media/bg.jpg": "/Pranavtyagi-2003/CodifyProgramming/static/media/bg.ad1f8f3f5aec74617351.jpg",
     "index.html": "/Pranavtyagi-2003/CodifyProgramming/index.html",
     "main.da0b04c0.css.map": "/Pranavtyagi-2003/CodifyProgramming/static/css/main.da0b04c0.css.map",
-    "main.6fbcdc97.js.map": "/Pranavtyagi-2003/CodifyProgramming/static/js/main.6fbcdc97.js.map",
+    "main.d7bbb204.js.map": "/Pranavtyagi-2003/CodifyProgramming/static/js/main.d7bbb204.js.map",
     "787.bbe01249.chunk.js.map": "/Pranavtyagi-2003/CodifyProgramming/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da0b04c0.css",
-    "static/js/main.6fbcdc97.js"
+    "static/js/main.d7bbb204.js"
   ]
 }
