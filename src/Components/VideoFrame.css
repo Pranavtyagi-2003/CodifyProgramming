@@ -1,3 +1,22 @@
 .frame{
-    margin-top: 6rem;
+    margin-top: 10rem;
+    display: flex;
+}
+/* iframe{
+    float: left;
+} */
+.left{
+    padding-bottom: 5rem;
+    margin-left: 0rem;
+    width: 50%;
+}
+.right{
+   width: 50%;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   height: 51.5vh;
+   margin-right: 1rem;
+}
+.video-title{
+    font-weight: bold;
+    font-family: "poppins";
 }

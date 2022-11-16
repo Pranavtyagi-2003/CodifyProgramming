@@ -14,6 +14,7 @@ function Videos() {
         <Navbar/>
         <VideoFrame
          VideoLink = {location.state.VideoLink}
+         P = {location.state.P}
         />
         <Footer/>
     </div>

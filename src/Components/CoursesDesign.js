@@ -5,15 +5,15 @@ import './CourseDesign.css'
 function CoursesDesign({courseimage1,courseimage2,courseimage3,Phead,P1,P2,P3,btnVal,VideoLink1,VideoLink2,VideoLink3}) {
   const navigate = useNavigate();
   const sendlink1 = () => {
-    navigate("/video",{state:{VideoLink:VideoLink1}});
+    navigate("/video",{state:{VideoLink:VideoLink1,P:P1}});
     console.log(VideoLink1);
   }
   const sendlink2 = () => {
-    navigate("/video",{state:{VideoLink:VideoLink2}});
+    navigate("/video",{state:{VideoLink:VideoLink2,P:P2}});
     console.log(VideoLink2);
   }
   const sendlink3 = () => {
-    navigate("/video",{state:{VideoLink:VideoLink3}});
+    navigate("/video",{state:{VideoLink:VideoLink3,P:P3}});
     console.log(VideoLink3);
   }
   return (
