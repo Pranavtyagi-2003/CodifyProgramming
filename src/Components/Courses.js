@@ -1,8 +1,5 @@
 import React from 'react'
 import CoursesDesign from './CoursesDesign'
-import img1 from '../images/1.jpg';
-import img2 from '../images/2.png';
-import img3 from '../images/3.jpg';
 import img4 from '../images/4.png';
 import img5 from '../images/5.png';
 import img6 from '../images/6.png';
@@ -19,16 +16,6 @@ import img16 from '../images/15.png';
 function Courses({courseimage1,courseimage2,courseimage3,Phead,P1,P2,P3,btnVal,VideoLink1,VideoLink2,VideoLink3}) {
   return (
     <div>
-      <CoursesDesign
-       courseimage1 = {img1}
-       courseimage2 = {img2}
-       courseimage3 = {img3}
-       Phead = "Free Courses"
-       P1 = "OOPs Concept For Beginners"
-       P2 = "Function Calling Methods"
-       P3 = "Programming in C++ Full Course"
-       btnVal = "Full Course"
-      />
       <CoursesDesign
        courseimage1 = {img8}
        courseimage2 = {img7}
